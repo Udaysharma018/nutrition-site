@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth premium scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Typography */
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: #fdfdfb; /* subtle off-white, optional but premium */
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Playfair Display', serif;
+}
